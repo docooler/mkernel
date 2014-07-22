@@ -1,0 +1,6 @@
+for ubuntu 12.04 the grub must write like below:
+
+menuentry 'myKernel' {
+	set root='(hd0,msdos1)'    
+	multiboot /boot/kernel-701
+}
